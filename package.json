@@ -1,0 +1,51 @@
+{
+  "name": "P-Brain.ai",
+  "version": "0.5.3",
+  "description": "NodeJS-powered AI assistant",
+  "main": "server.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Patrick Quinn",
+  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickjquinn/P-Brain.ai"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickjquinn/P-Brain.ai/issues",
+    "email": "noreply@github.com"
+  },
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "co": "^4.6.0",
+    "co-express": "^2.0.0",
+    "co-fs": "^1.2.0",
+    "co-request": "^1.0.0",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "diskdb": "^0.1.17",
+    "express": "^4.15.3",
+    "html-entities": "^1.2.1",
+    "ip": "^1.1.5",
+    "json2csv": "^3.9.0",
+    "jsonwebtoken": "^7.4.1",
+    "md5": "^2.2.1",
+    "natural": "^0.5.4",
+    "socket.io": "^2.0.3",
+    "speakeasy-nlp": "^0.2.12",
+    "sqlite3": "^3.1.8",
+    "striptags": "^3.0.1",
+    "tabletojson": "^0.6.0",
+    "thunkify-wrap": "^1.0.4",
+    "wolfram-alpha": "^0.6.0",
+    "words-to-num": "0.0.2",
+    "x-ray": "^2.3.2"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "tmp": "0.0.31"
+  }
+}
